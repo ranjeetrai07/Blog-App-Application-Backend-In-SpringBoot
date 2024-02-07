@@ -13,6 +13,8 @@ import java.util.Set;
 @NoArgsConstructor
 public class PostDto {
 
+    private Integer postId;
+
     private String title;
 
     private String content;
